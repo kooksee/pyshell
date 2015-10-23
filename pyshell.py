@@ -76,12 +76,14 @@ class cmd(object):
 
 if __name__ == '__main__':
     # print cmd('ls -l')
-    # print cmd("ls . | grep 'pyc'")
+    # print cmd("ls | grep 'LICENSE'")
     # print cmd("konsole --hold -e 'konsole --help'")
     # print cmd('scrapy list')
     # print cmd('ls $HOME')
     # print cmd('ls ~')
-   # import os
-    #os.system('clear')
+    # dd = cmd('ls ~').value().split('\n')
+    # print dd
 
-    print cmd('fromclip')
+    # cmd("gnome-terminal -x bash -c 'python -h;read' ")
+    # import os
+    # os.system('clear')
