@@ -4,6 +4,7 @@
 from pyshell import cmd
 print cmd('ls -al')
 print cmd("ls | grep 'LICENSE'")
+print cmd("ls -l").cmd("grep LICENSE")
 print cmd("konsole --hold -e 'konsole --help'")
 print cmd('ls $HOME')
 print cmd('ls ~')
